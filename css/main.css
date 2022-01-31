@@ -391,6 +391,7 @@ body {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  color: #212121;
   text-align: center;
 }
 
@@ -570,6 +571,15 @@ body {
   transform: translateY(100%);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.product-text-box {
+  padding: 20px 23px;
+  border: 1px solid #EEEEEE;
+}
+
+.product-text-box__title {
+  color: #212121;
 }
 
 .cards-text {
